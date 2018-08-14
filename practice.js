@@ -127,6 +127,10 @@ function isTheDinnerVegan(meal){
 
 isTheDinnerVegan(meal)
 
-
+//Exercise 11
+function dogFactory(name, breed, weight) {
+    return {name, breed, weight}
+  }
+  dogFactory('Joe', 'Pug', 27)
 
 
