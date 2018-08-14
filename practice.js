@@ -112,6 +112,21 @@ function sortYears(arr) {
 }
 sortYears(years);
 
+//Exercise 10
+const meal = [{name: 'arugula', source: 'plant'}, {name: 'tomatoes', source: 'plant'}, {name: 'lemon', source:'plant'}, {name: 'olive oil', source: 'plant'}];
+
+function isTheDinnerVegan(meal){
+  for (var i=0; i < meal.length; i++) {
+    if (meal[i].source === 'plant') {
+      return true
+    } else {
+      return false
+    }
+  }
+};
+
+isTheDinnerVegan(meal)
+
 
 
 
